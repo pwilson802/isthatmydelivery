@@ -10,6 +10,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>IS THAT MY DELIVERY?</h1>
+        <p>Anticipatory pleasure or arrival anxiety? Is That My Delivery explores the exquisite pain and ecstasy of a truly modern phenomena.</p>
+        <p>collection available at <a href="https://opensea.io/collection/is-that-my-delivery" target="_blank">opensea.io</a></p>
         <div className="wrapper">
           <Carousel showThumbs={false} showStatus={false} dynamicHeight={true} autoPlay={false} showIndicators={false }>
                 <div className="page">

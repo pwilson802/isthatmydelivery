@@ -27,10 +27,25 @@
 h1 {
   font-family: "Barlow", sans-serif;
   letter-spacing: 6px;
+  margin-bottom: 0;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+p {
+  width: 90%;
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+a {
+  color: purple;
+  text-decoration: none;
+}
+a:hover {
+  color: aqua;
 }
 
 .wrapper {
