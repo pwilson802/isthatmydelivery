@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
         <h1>IS THAT MY DELIVERY?</h1>
         <div className="wrapper">
-          <Carousel showThumbs={false} showStatus={false} dynamicHeight={true}>
+          <Carousel showThumbs={false} showStatus={false} dynamicHeight={true} autoPlay={false} showIndicators={false }>
                 <div className="page">
                     <img src="./assets/gorrilla.png" />
                 </div>

@@ -24,12 +24,35 @@
   color: white;
 }
 
+h1 {
+  font-family: "Barlow", sans-serif;
+  letter-spacing: 6px;
+}
+
 .App-link {
   color: #61dafb;
 }
 
 .wrapper {
-  width: 40%;
+  width: 90%;
+}
+
+@media screen and (max-width: 1900px) {
+  .wrapper {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1042px) {
+  .wrapper {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 80%;
+  }
 }
 
 @keyframes App-logo-spin {
