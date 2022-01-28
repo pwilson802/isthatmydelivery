@@ -49,6 +49,24 @@ function App() {
             </div>
                                     <div className="page">
                     <img src="./assets/rabbit-photocopy.png" />
+            </div>
+            <div className="page">
+                    <img src="./assets/deer.png" />
+                </div>
+              <div className="page">
+                    <img src="./assets/deer-blue.png" />
+            </div>
+            <div className="page">
+                    <img src="./assets/deer-bone.png" />
+            </div>
+            <div className="page">
+                    <img src="./assets/deer-gold.png" />
+            </div>
+            <div className="page">
+                    <img src="./assets/deer-photocopy.png" />
+            </div>
+            <div className="page">
+                    <img src="./assets/deer-plum.png" />
                 </div>
           </Carousel>
                 </div>
