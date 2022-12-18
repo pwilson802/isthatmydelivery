@@ -44,6 +44,7 @@ a {
   color: purple;
   text-decoration: none;
 }
+
 a:hover {
   color: aqua;
 }
@@ -52,21 +53,21 @@ a:hover {
   width: 90%;
 }
 
-@media screen and (max-width: 1900px) {
+@media screen and (min-width: 768px) {
   .wrapper {
-    width: 40%;
+    width: 80%;
   }
 }
 
-@media screen and (max-width: 1042px) {
+@media screen and (min-width: 1042px) {
   .wrapper {
     width: 60%;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1900px) {
   .wrapper {
-    width: 80%;
+    width: 40%;
   }
 }
 
@@ -74,6 +75,7 @@ a:hover {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
